@@ -1,0 +1,47 @@
+{
+  "name": "fiction",
+  "version": "1.0.0",
+  "description": "koa2 mysql 爬虫",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon index.js --experimental-modules",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "koa2",
+    "mysql"
+  ],
+  "author": "9i",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "kcors": "^2.2.1",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-jwt": "^3.3.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "lodash": "^4.17.4",
+    "log4js": "^2.4.1",
+    "mysql2": "^1.5.1",
+    "node-schedule": "^1.2.5",
+    "request": "^2.83.0",
+    "sequelize": "^4.28.1",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-strict-mode": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.13.0"
+  }
+}
